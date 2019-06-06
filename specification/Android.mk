@@ -25,8 +25,6 @@ vtslib_interfacespec_srcfiles := \
   hal/conventional/gps/1.0/GpsHalV1GpsInterface.vts \
   hal/conventional/light/1.0/LightHalV1.vts \
   hal/conventional/wifi/1.0/WifiHalV1.vts \
-  hal/conventional/bluetooth/1.0/BluetoothHalV1.vts \
-  hal/conventional/bluetooth/1.0/BluetoothHalV1bt_interface_t.vts \
   lib/ndk/bionic/1.0/libmV1.vts \
   lib/ndk/bionic/1.0/libcV1.vts \
   lib/ndk/bionic/1.0/libcutilsV1.vts \
@@ -58,9 +56,6 @@ vtslib_interfacespec_shared_libraries := \
   libvts_measurement \
   libvts_multidevice_proto \
   libprotobuf-cpp-full \
-
-vtslib_interfacespec_static_libraries := \
-  libbluetooth-types
 
 include $(CLEAR_VARS)
 
